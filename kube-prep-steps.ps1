@@ -1,15 +1,15 @@
 #### Parameters
 
-$keyvaultname = "xxxxx"
-$location = "xxxxx"
-$keyvaultrg = "xxxxxx"
-$sshkeysecret = "xxxxx"
-$spnclientid = "xxxxxx"
-$clientidkvsecretname = "xxxxxx"
-$spnclientsecret = "xxxxxx"
-$spnkvsecretname = "xxxxx"
-$spobjectID = "xxxxx"
-$userobjectid = "xxxxx"
+$keyvaultname = "triton-kv"
+$location = "eastasia"
+$keyvaultrg = "triton-kv-sg"
+$sshkeysecret = "triton-ssh-public-key"
+$spnclientid = "1e42b294-077c-4bd5-93f3-5b7866308609"
+$clientidkvsecretname = "triton-service-principal-client-id"
+$spnclientsecret = "EZh8Q~wmcSPH7JlqzhI5J~ozSavBPkuPxbdW7cXj"
+$spnkvsecretname = "triton-sp-client-secret-vaule"
+$spobjectID = "1e42b294-077c-4bd5-93f3-5b7866308609"
+$userobjectid = "1e42b294-077c-4bd5-93f3-5b7866308609"
 
 
 #### Create Key Vault
