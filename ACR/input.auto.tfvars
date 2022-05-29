@@ -1,11 +1,11 @@
-keyvault_rg= "aksdemo-rg"
+keyvault_rg= "triton-kv-sg"
 
-keyvault_name = "aksdemocluster-kv"
+keyvault_name = "triton-kv"
 
-clientidkvsecret = "spn-id"
+clientidkvsecret = "triton-service-principal-client-id"
 
-rg_name = "aksdemocluster-rg"
+rg_name = "triton-aks-rg"
 
-rg_location = "australiaeast"
+rg_location = "eastasia"
 
-acrname = "demoaksacr1223"
+acrname = "tritonacr"
