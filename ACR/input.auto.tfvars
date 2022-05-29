@@ -1,34 +1,11 @@
-aks_vnet_name = "triton-aks-vnet"
+keyvault_rg= "aksdemo-rg"
 
-sshkvsecret = "triton-ssh-public-key"
+keyvault_name = "aksdemocluster-kv"
 
-clientidkvsecret = "triton-service-principal-client-id"
+clientidkvsecret = "spn-id"
 
-spnkvsecret = "triton-sp-client-secret-vaule"
+rg_name = "aksdemocluster-rg"
 
-vnetcidr = ["10.0.0.0/24"]
+rg_location = "australiaeast"
 
-subnetcidr = ["10.0.0.0/25"]
-
-keyvault_rg = "triton-kv-sg"
-
-keyvault_name = "triton-kv"
-
-azure_region = "eastasia"
-
-resource_group = "triton-aks-rg"
-
-cluster_name = "triton-test-cluster"
-
-dns_name = "triton"
-
-admin_username = "tritonadmin"
-
-kubernetes_version = "1.21.7"
-
-agent_pools = {
-      name            = "tritonpool"
-      count           = 2
-      vm_size         = "Standard_D2_v2"
-      os_disk_size_gb = "30"
-    }
+acrname = "demoaksacr1223"
